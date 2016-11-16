@@ -15,6 +15,7 @@ $ brew install s3url
 |------|-------------|---------|
 | [ec2c](https://github.com/dtan4/ec2c) | Simple AWS EC2 CLI | [v0.1.1](https://github.com/dtan4/ec2c/releases/tag/v0.1.1) |
 | [k8sec](https://github.com/dtan4/k8sec) | CLI tool to manage Kubernetes Secrets easily | [v0.1.1](https://github.com/dtan4/k8sec/releases/tag/v0.1.1) |
+| [k8stail](https://github.com/dtan4/k8stail) | `tail -f` experience for Kubernetes Pods | [v0.2.0](https://github.com/dtan4/k8stail/releases/tag/v0.2.0) |
 | [s3url](https://github.com/dtan4/s3url) | Generate S3 object pre-signed URL in one command | [v0.3.1](https://github.com/dtan4/s3url/releases/tag/v0.3.1) |
 
 ## License
