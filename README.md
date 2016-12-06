@@ -1,6 +1,6 @@
 # homebrew-dtan4
 
-Homebrew recipes of @dtan4 tools
+Homebrew recipes of [@dtan4](https://github.com/dtan4) tools
 
 ## Installation
 
