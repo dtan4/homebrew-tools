@@ -9,6 +9,6 @@ class K8stail < Formula
   end
 
   test do
-    system "k8stail", "-v"
+    system "#{bin}/k8stail", "-v"
   end
 end

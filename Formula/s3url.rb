@@ -9,6 +9,6 @@ class S3url < Formula
   end
 
   test do
-    system "s3url", "-v"
+    system "#{bin}/s3url", "-v"
   end
 end

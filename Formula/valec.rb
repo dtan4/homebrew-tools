@@ -9,6 +9,6 @@ class Valec < Formula
   end
 
   test do
-    system "valec", "version"
+    system "#{bin}/valec", "version"
   end
 end
