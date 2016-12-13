@@ -1,5 +1,7 @@
 # homebrew-dtan4
 
+[![Build Status](https://travis-ci.org/dtan4/homebrew-dtan4.svg?branch=master)](https://travis-ci.org/dtan4/homebrew-dtan4)
+
 Homebrew recipes of [@dtan4](https://github.com/dtan4) tools
 
 ## Installation

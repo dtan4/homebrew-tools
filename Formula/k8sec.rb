@@ -9,6 +9,6 @@ class K8sec < Formula
   end
 
   test do
-    system "k8sec", "-v"
+    system "#{bin}/k8sec", "-v"
   end
 end

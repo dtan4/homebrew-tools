@@ -9,6 +9,6 @@ class Ec2c < Formula
   end
 
   test do
-    system "ec2c", "-v"
+    system "#{bin}/ec2c", "-v"
   end
 end
