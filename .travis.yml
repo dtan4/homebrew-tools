@@ -1,4 +1,4 @@
-language: ruby
+language: objective-c
 matrix:
   include:
     # https://docs.travis-ci.com/user/osx-ci-environment/
