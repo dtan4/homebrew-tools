@@ -1,0 +1,23 @@
+#!/bin/bash
+
+set -eu
+set -o pipefail
+
+usage='Usage: script/check-sha256sum TARBALL_URL'
+
+if [ `uname` != 'Darwin' ]; then
+  echo 'Please run this script on OS X machine.' >&2
+  exit 1
+fi
+
+if [ $# != 1 ]; then
+  echo $usage >&2
+  exit 1
+fi
+
+tarball_url=$1
+
+filename=`mktemp`
+wget -qO $filename $1
+shasum -a 256 $filename | awk '{ print $1 }'
+rm -f $filename

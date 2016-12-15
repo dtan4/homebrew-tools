@@ -8,7 +8,6 @@ Homebrew recipes of [@dtan4](https://github.com/dtan4) tools
 
 ```bash
 $ brew tap dtan4/dtan4
-$ brew install s3url
 ```
 
 ## Available tools
@@ -19,12 +18,13 @@ $ brew install s3url
 | [k8sec](https://github.com/dtan4/k8sec) | CLI tool to manage Kubernetes Secrets easily | [v0.1.1](https://github.com/dtan4/k8sec/releases/tag/v0.1.1) |
 | [k8stail](https://github.com/dtan4/k8stail) | `tail -f` experience for Kubernetes Pods | [v0.2.0](https://github.com/dtan4/k8stail/releases/tag/v0.2.0) |
 | [s3url](https://github.com/dtan4/s3url) | Generate S3 object pre-signed URL in one command | [v0.3.1](https://github.com/dtan4/s3url/releases/tag/v0.3.1) |
-| [valec](https://github.com/dtan4/valec) | Handle application secrets securely | [v0.2.1](https://github.com/dtan4/valec/releases/tag/v0.2.1) |
+| [valec](https://github.com/dtan4/valec) | Handle application secrets securely | [v0.3.1](https://github.com/dtan4/valec/releases/tag/v0.3.1) |
 
-## Add new tool
+## How to add new tool
 
 0. Check SHA256 checksum of target file
    - `$ shasum -a 256 APP.tar.gz`
+   - :rocket: Download archive and check at once: `$ script/check-sha256sum https://github.com/dtan4/APP/releases/downloads/v0.1.2/APP.tar.gz`
 0. Create `Formula/APP.rb`
 0. Test it
    - `$ brew install --verbose --debug Formula/APP.rb`
