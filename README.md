@@ -8,7 +8,6 @@ Homebrew recipes of [@dtan4](https://github.com/dtan4) tools
 
 ```bash
 $ brew tap dtan4/dtan4
-$ brew install s3url
 ```
 
 ## Available tools
