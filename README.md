@@ -23,12 +23,21 @@ $ brew tap dtan4/dtan4
 ## How to add new tool
 
 0. Check SHA256 checksum of target file
-   - `$ shasum -a 256 APP.tar.gz`
-   - :rocket: Download archive and check at once: `$ script/check-sha256sum https://github.com/dtan4/APP/releases/downloads/v0.1.2/APP.tar.gz`
+
+   ```bash
+   $ shasum -a 256 APP.tar.gz
+
+   # Download archive and check at once
+   $ script/check-sha256sum https://github.com/dtan4/APP/releases/downloads/v0.1.2/APP.tar.gz
+   ```
+
 0. Create `Formula/APP.rb`
 0. Test it
-   - `$ brew install --verbose --debug Formula/APP.rb`
-   - `$ brew test Formula/APP.rb`
+
+    ```bash
+   $ brew install --verbose --debug Formula/APP.rb
+   $ brew test Formula/APP.rb
+   ```
 
 For further information, see [https://github.com/Homebrew/brew/blob/master/docs/Formula-Cookbook.md](https://github.com/Homebrew/brew/blob/master/docs/Formula-Cookbook.md).
 
