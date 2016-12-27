@@ -18,7 +18,7 @@ $ brew tap dtan4/dtan4
 | [k8sec](https://github.com/dtan4/k8sec) | CLI tool to manage Kubernetes Secrets easily | [v0.1.1](https://github.com/dtan4/k8sec/releases/tag/v0.1.1) |
 | [k8stail](https://github.com/dtan4/k8stail) | `tail -f` experience for Kubernetes Pods | [v0.2.0](https://github.com/dtan4/k8stail/releases/tag/v0.2.0) |
 | [s3url](https://github.com/dtan4/s3url) | Generate S3 object pre-signed URL in one command | [v0.3.1](https://github.com/dtan4/s3url/releases/tag/v0.3.1) |
-| [valec](https://github.com/dtan4/valec) | Handle application secrets securely | [v0.3.2](https://github.com/dtan4/valec/releases/tag/v0.3.2) |
+| [valec](https://github.com/dtan4/valec) | Handle application secrets securely | [v0.5.2](https://github.com/dtan4/valec/releases/tag/v0.5.2) |
 
 ## How to add new tool
 
