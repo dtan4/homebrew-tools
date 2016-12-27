@@ -1,8 +1,10 @@
 class K8sec < Formula
+  VERSION = "v0.2.0"
+
   desc "CLI tool to manage Kubernetes Secrets easily"
   homepage "https://github.com/dtan4/k8sec"
-  url "https://github.com/dtan4/k8sec/releases/download/v0.1.1/k8sec-v0.1.1-darwin-amd64.tar.gz"
-  sha256 "7750bf3963cf8d7d4d9549be470bbcc59456a4a0de6634cda161f7545b68dbcf"
+  url "https://github.com/dtan4/k8sec/releases/download/#{VERSION}/k8sec-#{VERSION}-darwin-amd64.tar.gz"
+  sha256 "784ef4b85cae3c0168e5b7d944e8792312c5f67baa64fbd56d202209eeba2d0f"
 
   def install
     bin.install "k8sec"
