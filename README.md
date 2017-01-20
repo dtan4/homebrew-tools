@@ -1,13 +1,13 @@
-# homebrew-dtan4
+# homebrew-tools
 
-[![Build Status](https://travis-ci.org/dtan4/homebrew-dtan4.svg?branch=master)](https://travis-ci.org/dtan4/homebrew-dtan4)
+[![Build Status](https://travis-ci.org/dtan4/homebrew-tools.svg?branch=master)](https://travis-ci.org/dtan4/homebrew-tools)
 
 Homebrew recipes of [@dtan4](https://github.com/dtan4) tools
 
 ## Installation
 
 ```bash
-$ brew tap dtan4/dtan4
+$ brew tap dtan4/tools
 ```
 
 ## Available tools
