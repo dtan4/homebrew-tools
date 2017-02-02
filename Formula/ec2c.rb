@@ -1,5 +1,5 @@
 class Ec2c < Formula
-  VRESION = "0.1.1".freeze
+  VERSION = "0.1.1".freeze
 
   desc "Simple AWS EC2 CLI"
   homepage "https://github.com/dtan4/ec2c"
