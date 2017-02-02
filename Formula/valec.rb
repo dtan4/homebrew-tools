@@ -1,5 +1,5 @@
 class Valec < Formula
-  VERSION = "0.5.2"
+  VERSION = "0.5.2".freeze
 
   desc "Handle application secrets securely"
   homepage "https://github.com/dtan4/valec"

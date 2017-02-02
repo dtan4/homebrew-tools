@@ -1,5 +1,5 @@
 class S3url < Formula
-  VERSION = "0.3.1"
+  VERSION = "0.3.1".freeze
 
   desc "Generate S3 object pre-signed URL in one command"
   homepage "https://github.com/dtan4/s3url"

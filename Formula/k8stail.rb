@@ -1,5 +1,5 @@
 class K8stail < Formula
-  VERSION = "0.3.0"
+  VERSION = "0.3.0".freeze
 
   desc "`tail -f` experience for Kubernetes Pods"
   homepage "https://github.com/dtan4/k8stail"
