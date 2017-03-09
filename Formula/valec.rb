@@ -1,11 +1,11 @@
 class Valec < Formula
-  VERSION = "0.5.2".freeze
+  VERSION = "0.6.2".freeze
 
   desc "Handle application secrets securely"
   homepage "https://github.com/dtan4/valec"
-  url "https://github.com/dtan4/valec/releases/download/v#{VERSION}/valec-v#{VERSION}-darwin-amd64.tar.gz"
+  url "https://github.com/dtan4/valec/releases/download/v#{VERSION}/valec-darwin-amd64-v#{VERSION}.tar.gz"
   version VERSION
-  sha256 "a506596c3e0146ac02aa9ccbb97583f44aa1ee26c74f4d08e28c7cf7a2e3ca55"
+  sha256 "5538808888f85c86ca2194c8c5919a2d342988cb203d203e37c2287c91430333"
 
   def install
     bin.install "valec"
