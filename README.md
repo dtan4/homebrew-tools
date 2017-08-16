@@ -16,7 +16,7 @@ $ brew tap dtan4/tools
 |------|-------------|---------|
 | [ec2c](https://github.com/dtan4/ec2c) | Simple AWS EC2 CLI | [v0.1.1](https://github.com/dtan4/ec2c/releases/tag/v0.1.1) |
 | [ghrls](https://github.com/dtan4/ghrls) | List & Describe GitHub Reelases | [v0.1.0](https://github.com/dtan4/ghrls/releases/tag/v0.1.0) |
-| [k8sec](https://github.com/dtan4/k8sec) | CLI tool to manage Kubernetes Secrets easily | [v0.3.1](https://github.com/dtan4/k8sec/releases/tag/v0.3.1) |
+| [k8sec](https://github.com/dtan4/k8sec) | CLI tool to manage Kubernetes Secrets easily | [v0.5.0](https://github.com/dtan4/k8sec/releases/tag/v0.5.0) |
 | [k8stail](https://github.com/dtan4/k8stail) | `tail -f` experience for Kubernetes Pods | [v0.4.0](https://github.com/dtan4/k8stail/releases/tag/v0.4.0) |
 | [s3url](https://github.com/dtan4/s3url) | Generate S3 object pre-signed URL in one command | [v0.3.1](https://github.com/dtan4/s3url/releases/tag/v0.3.1) |
 | [valec](https://github.com/dtan4/valec) | Handle application secrets securely | [v0.5.2](https://github.com/dtan4/valec/releases/tag/v0.5.2) |
