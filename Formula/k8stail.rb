@@ -5,7 +5,7 @@ class K8stail < Formula
   homepage "https://github.com/dtan4/k8stail"
   url "https://github.com/dtan4/k8stail/releases/download/v#{VERSION}/k8stail-v#{VERSION}-darwin-amd64.tar.gz"
   version VERSION
-  sha256 "66cda739f7014ee976a92ba4d32f14956936b5bcd02192dc1e906592167bd714"
+  sha256 "4a5685cc328c0f059f0409558e8be1943f0a7019728397729bce54c77dd19fea"
 
   def install
     bin.install "k8stail"
