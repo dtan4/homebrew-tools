@@ -1,0 +1,23 @@
+name: Test on macOS
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+
+jobs:
+  test:
+    runs-on: macos-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: brew update
+        run: |
+          brew update
+      - name: Install tools
+        run: |
+          brew install --build-bottle --verbose Formula/*.rb
+      - name: Test tools
+        run: |
+          brew test Formula/*.rb
