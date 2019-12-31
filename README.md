@@ -1,6 +1,8 @@
 # homebrew-tools
 
-[![Build Status](https://travis-ci.org/dtan4/homebrew-tools.svg?branch=master)](https://travis-ci.org/dtan4/homebrew-tools)
+| Platform | Status |
+|----------|--------|
+| macOS | [![GitHub Actions](https://github.com/dtan4/homebrew-tools/workflows/Test%20on%20macOS/badge.svg)](https://github.com/dtan4/homebrew-tools/actions?query=workflow%3A%22Test+on+macOS%22+branch%3A%22master%22) |
 
 Homebrew recipes of [@dtan4](https://github.com/dtan4) tools
 
