@@ -5,28 +5,28 @@
 class Ghrls < Formula
   desc "List & Describe GitHub Releases"
   homepage "https://github.com/dtan4/ghrls"
-  version "0.2.0"
+  version "0.2.1"
   bottle :unneeded
 
   if OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/dtan4/ghrls/releases/download/v0.2.0/ghrls_Darwin_x86_64.tar.gz"
-    sha256 "e3aacf07c61713475669868a475fd39f3ffe06f5ae840d3057a1df3f766fdd9c"
+    url "https://github.com/dtan4/ghrls/releases/download/v0.2.1/ghrls_Darwin_x86_64.tar.gz"
+    sha256 "1c65534b89ea908f0de6caf478c4d810455e4b4501b318aef1deb25d28c86987"
   end
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/dtan4/ghrls/releases/download/v0.2.0/ghrls_Darwin_arm64.tar.gz"
-    sha256 "ebed8c751e87d65e7d00dc594fc75d1433b6d35c35f1f17bf6af4144fd6be847"
+    url "https://github.com/dtan4/ghrls/releases/download/v0.2.1/ghrls_Darwin_arm64.tar.gz"
+    sha256 "2446ca837e74f73d037396a93b74b45f8e8a8d8b739910f0c7183edd13e22865"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/dtan4/ghrls/releases/download/v0.2.0/ghrls_Linux_x86_64.tar.gz"
-    sha256 "00096feb52d19a8bf45e903355280aa6dc5ac9f2fe67996e6d420935f54457af"
+    url "https://github.com/dtan4/ghrls/releases/download/v0.2.1/ghrls_Linux_x86_64.tar.gz"
+    sha256 "4ee5c44e20b01c5f44151bc95465c07ad136fa5db7e4f4a019059ac1d3696509"
   end
   if OS.linux? && Hardware::CPU.arm? && !Hardware::CPU.is_64_bit?
-    url "https://github.com/dtan4/ghrls/releases/download/v0.2.0/ghrls_Linux_armv6.tar.gz"
-    sha256 "9e220106b26b9400a70c7c95421f75074d78f805f1d8aeb9652826a5540c88ac"
+    url "https://github.com/dtan4/ghrls/releases/download/v0.2.1/ghrls_Linux_armv6.tar.gz"
+    sha256 "f253daad92dea50b4d7eea6a53102d140b013ad1d27238c0fa77750af2d9713c"
   end
   if OS.linux? && Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-    url "https://github.com/dtan4/ghrls/releases/download/v0.2.0/ghrls_Linux_arm64.tar.gz"
-    sha256 "31db7d0aa36bf80a60550ae876c41138686e71539094d43c561c9938485c9075"
+    url "https://github.com/dtan4/ghrls/releases/download/v0.2.1/ghrls_Linux_arm64.tar.gz"
+    sha256 "bee3a6a9ccebca8394c2098f8d6baa4d64fdb9a90314bebc24273a3801b6817e"
   end
 
   def install
@@ -34,6 +34,6 @@ class Ghrls < Formula
   end
 
   test do
-    system "#{bin}/s3url", "-v"
+    system "#{bin}/ghrls", "version"
   end
 end
