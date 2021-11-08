@@ -3,7 +3,6 @@ class K8sec < Formula
   desc "CLI tool to manage Kubernetes Secrets easily"
   homepage "https://github.com/dtan4/k8sec"
   version "0.7.0"
-  bottle :unneeded
 
   if OS.mac?
     url "https://github.com/dtan4/k8sec/releases/download/v0.7.0/k8sec_Darwin_x86_64.tar.gz"
