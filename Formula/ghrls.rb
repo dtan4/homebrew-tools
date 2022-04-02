@@ -6,7 +6,6 @@ class Ghrls < Formula
   desc "List & Describe GitHub Releases"
   homepage "https://github.com/dtan4/ghrls"
   version "0.2.1"
-  bottle :unneeded
 
   if OS.mac? && Hardware::CPU.intel?
     url "https://github.com/dtan4/ghrls/releases/download/v0.2.1/ghrls_Darwin_x86_64.tar.gz"
