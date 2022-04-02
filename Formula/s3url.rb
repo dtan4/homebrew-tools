@@ -3,7 +3,6 @@ class S3url < Formula
   desc "Generate S3 object pre-signed URL in one command"
   homepage "https://github.com/dtan4/s3url"
   version "1.0.1"
-  bottle :unneeded
 
   if OS.mac?
     url "https://github.com/dtan4/s3url/releases/download/v1.0.1/s3url_Darwin_x86_64.tar.gz"
